@@ -1,0 +1,6 @@
+framework module GoogleVR {
+  umbrella header "GoogleVR.h"
+
+  export *
+  module * { export * }
+}
