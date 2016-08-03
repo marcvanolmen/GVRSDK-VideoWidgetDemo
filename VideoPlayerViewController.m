@@ -28,8 +28,6 @@
 
     self.isPaused = NO;
 
-//    NSURL *URL = [NSURL URLWithString:@"http://qa.cdn1.agency.thomsonreuters.com/360_streams/tag_reuters_com_2016_binary_VTZSPDEC818K8C1V_STREAM_29359_360_MP4_1/hls.playlist.m3u8"];
-    //  NSString *videoPath = [[NSBundle mainBundle] pathForResource:@"congo" ofType:@"mp4"];
     NSURL *URL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"congo" ofType:@"mp4"]];
     [self.videoView loadFromUrl:URL];
 }
