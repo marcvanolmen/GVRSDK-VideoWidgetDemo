@@ -15,7 +15,6 @@
 		1237A99B1C85254A00AD3514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1237A99A1C85254A00AD3514 /* Assets.xcassets */; };
 		1237A99F1C852A3200AD3514 /* congo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1237A99E1C852A3200AD3514 /* congo.mp4 */; };
 		C15C93301D50EFB2004233DE /* GoogleVR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15C932F1D50EFB2004233DE /* GoogleVR.framework */; };
-		C15C93371D5103C0004233DE /* GVRVideoView+Hacking.m in Sources */ = {isa = PBXBuildFile; fileRef = C15C93361D5103C0004233DE /* GVRVideoView+Hacking.m */; };
 		DD5094001D50F33E0041BFB6 /* CardboardSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD5093FF1D50F33E0041BFB6 /* CardboardSDK.bundle */; };
 /* End PBXBuildFile section */
 
@@ -32,8 +31,6 @@
 		1237A99C1C85256700AD3514 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		1237A99E1C852A3200AD3514 /* congo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = congo.mp4; path = resources/congo.mp4; sourceTree = SOURCE_ROOT; };
 		C15C932F1D50EFB2004233DE /* GoogleVR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleVR.framework; path = Carthage/Build/iOS/GoogleVR.framework; sourceTree = "<group>"; };
-		C15C93351D5103C0004233DE /* GVRVideoView+Hacking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GVRVideoView+Hacking.h"; sourceTree = SOURCE_ROOT; };
-		C15C93361D5103C0004233DE /* GVRVideoView+Hacking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GVRVideoView+Hacking.m"; sourceTree = SOURCE_ROOT; };
 		DD5093FF1D50F33E0041BFB6 /* CardboardSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CardboardSDK.bundle; path = Carthage/Build/iOS/GoogleVR.framework/CardboardSDK.bundle; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -80,8 +77,6 @@
 				1237A9911C85243300AD3514 /* VideoPlayerViewController.m */,
 				DD5093FF1D50F33E0041BFB6 /* CardboardSDK.bundle */,
 				1237A9771C8523A300AD3514 /* Supporting Files */,
-				C15C93351D5103C0004233DE /* GVRVideoView+Hacking.h */,
-				C15C93361D5103C0004233DE /* GVRVideoView+Hacking.m */,
 			);
 			path = VideoWidgetDemo;
 			sourceTree = "<group>";
@@ -194,7 +189,6 @@
 			files = (
 				1237A9931C85243300AD3514 /* VideoPlayerViewController.m in Sources */,
 				1237A9971C8524D200AD3514 /* main.m in Sources */,
-				C15C93371D5103C0004233DE /* GVRVideoView+Hacking.m in Sources */,
 				1237A9921C85243300AD3514 /* VideoPlayerAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
